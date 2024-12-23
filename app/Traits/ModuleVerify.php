@@ -34,7 +34,7 @@ trait ModuleVerify
         $this->setSetting($module);
         $domain = \request()->getHost();
 
-        if (in_array($domain, ['localhost', '127.0.0.1', '::1'])  || 1==1) {
+        if (in_array($domain, ['localhost', '127.0.0.1', '::1'])) {
             return true;
         }
 
@@ -56,7 +56,7 @@ trait ModuleVerify
         $this->setSetting($module);
         $domain = \request()->getHost();
 
-        if (in_array($domain, ['localhost', '127.0.0.1', '::1']) || 1==1) {
+        if (in_array($domain, ['localhost', '127.0.0.1', '::1'])) {
             return true;
         }
 

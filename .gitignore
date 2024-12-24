@@ -31,3 +31,6 @@ resources/lang/*
 !resources/lang/eng/
 !resources/lang/vendor/backup/eng
 !resources/lang/eng.json
+/public/css/main.css
+/public/js/bootstrap.js
+/public/js/main.js

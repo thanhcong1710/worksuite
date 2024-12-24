@@ -33,7 +33,6 @@ class Auth extends Component
         $languages = language_setting();
 
         $appTheme = $globalSetting;
-        var_dump(session('locale'));die();
         App::setLocale(session('locale') ?? $globalSetting->locale);
 
         return view('components.auth', ['globalSetting' => $globalSetting, 'appTheme' => $appTheme, 'languages' => $languages]);

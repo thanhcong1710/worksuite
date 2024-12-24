@@ -95,7 +95,6 @@
                     @endif
                 </div>
                 <div class="forgot_pswd mb-3">
-                    <?php var_dump(lang('app.forgotPassword'));die();?>
                     <a href="{{ url('forgot-password') }}">@lang('app.forgotPassword')</a>
                 </div>
 

@@ -115,7 +115,7 @@ class FortifyServiceProvider extends ServiceProvider
             // if (!$this->isLegal()) {
             //     return redirect('verify-purchase');
             // }
-
+            dd($globalSetting->locale);
             App::setLocale($globalSetting->locale);
             Carbon::setLocale($globalSetting->locale);
             setlocale(LC_TIME, $globalSetting->locale . '_' . mb_strtoupper($globalSetting->locale));
